@@ -50,6 +50,27 @@ common:
     url: https://www.locoia.com/gdpr-data-protection-and-data-security/
   - type: Support
     url: mailto:info@locoia.com
+  - type: Integrations
+    url: https://www.locoia.com/integrations/
+integrations:
+  - name: Salesforce
+  - name: Microsoft Power BI
+  - name: Asana
+  - name: HubSpot
+  - name: Slack
+  - name: SevDesk
+  - name: Zendesk
+  - name: Oracle NetSuite
+  - name: Odoo
+  - name: Microsoft Dynamics 365
+  - name: Google BigQuery
+  - name: Snowflake
+  - name: Salesforce & Asana Integration
+  - name: Microsoft Dynamics 365 & Hubspot
+  - name: Oracle NetSuite & Microsoft Power BI
+  - name: Odoo & Aircall
+  - name: Oracle NetSuite & Odoo
+  - name: S3 AWS & SalesForce
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
