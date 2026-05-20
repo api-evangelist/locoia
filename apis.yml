@@ -38,6 +38,10 @@ apis:
       - type: StatusPage
         url: https://status.locoia.com/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/locoia
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/locoia
   - type: Website
     url: https://www.locoia.com
   - type: Documentation
