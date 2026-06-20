@@ -6,7 +6,7 @@ description: >-
   drag-and-drop workflow editor with 200+ pre-built connectors. Hosted in Frankfurt,
   Germany, with GDPR/DSGVO compliance and 99.99% uptime.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/locoia/refs/heads/main/apis.yml
 tags:
   - Integration
