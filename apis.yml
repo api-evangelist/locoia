@@ -56,7 +56,7 @@ common:
     url: mailto:info@locoia.com
   - type: Integrations
     url: https://www.locoia.com/integrations/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.locoia.com/llms.txt
 integrations:
   - name: Salesforce
