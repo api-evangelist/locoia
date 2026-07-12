@@ -38,6 +38,8 @@ apis:
       - type: StatusPage
         url: https://status.locoia.com/
 common:
+  - type: DomainSecurity
+    url: security/locoia-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/locoia
   - type: LinkedIn
@@ -58,6 +60,8 @@ common:
     url: https://www.locoia.com/integrations/
   - type: LlmsText
     url: https://docs.locoia.com/llms.txt
+  - url: https://www.locoia.com/feed/
+    type: Blog
 integrations:
   - name: Salesforce
   - name: Microsoft Power BI
