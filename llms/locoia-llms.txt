@@ -1,0 +1,268 @@
+# Locoia
+
+## Locoia
+
+- [Overview](https://docs.locoia.com/readme.md): Locoia is the low-code all-in-one iPaaS solution 🛠️  for companies of all sizes⚡
+- [Account and User Settings](https://docs.locoia.com/account-settings.md)
+- [User types](https://docs.locoia.com/account-settings/user-types.md): Users types and their permissions
+- [Adding Users](https://docs.locoia.com/account-settings/adding-new-users.md)
+- [Teams](https://docs.locoia.com/account-settings/teams.md): What are teams? How to use them?
+- [Access Permissions](https://docs.locoia.com/account-settings/access-permissions.md): Many companies require access on a "need to know basis" in order to limit the access of flows, dashboard and other information.
+- [2 Factor Authentication 2FA](https://docs.locoia.com/account-settings/two-factor-authentication-2fa.md)
+- [Versioning and Snapshots](https://docs.locoia.com/account-settings/versioning-and-snapshots.md): Versioning and snapshots allow you to revert back to a previous version of your objects (e.g. Flows, etc.)
+- [Activity Log](https://docs.locoia.com/account-settings/activity-log.md): The Activity Log logs all changes made in your Locoia Account
+- [Reset your Password](https://docs.locoia.com/reset-your-password.md): Reset or forgot your username or password
+- [Invoices and Payments](https://docs.locoia.com/invoices-and-payments.md)
+- [Flow Builder](https://docs.locoia.com/automation/flow-builder.md): Everything you need to know about building flows in our Flow Builder!
+- [Flow Building Best Practices](https://docs.locoia.com/automation/flow-builder/flow-building-best-practices.md): Learn how to build robust and scalable flows.
+- [Jinja Template Language](https://docs.locoia.com/automation/flow-builder/jinja2-template-language.md)
+- [Jinja: (Custom) variables, wildcards and functions](https://docs.locoia.com/automation/flow-builder/jinja2-template-language/using-custom-variables-wildcards-and-functions.md)
+- [Magic Code Samples](https://docs.locoia.com/automation/flow-builder/jinja2-template-language/magic-code-samples.md): Jinja code examples for tricky things.
+- [Connectors & APIs](https://docs.locoia.com/automation/flow-builder/connectors-and-apis.md)
+- [Titles and References](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/titles-and-referencing-refids-of-connectors-and-helpers.md): Titles and JsonRefs for Connectors and Helpers
+- [Referencing data of objects, lists, arrays - how to pass data dynamically](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/referencing-data-of-dicts-lists-arrays-how-to-pass-data-dynamically.md): Referencing data of dictionaries (dicts or objects), lists, arrays - how to pass data dynamically
+- [Accessing Objects with JSONPath](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/accessing-objects-with-jsonpath.md): Accessing Objects and List Items with JSONPath in the Flow Builder Results
+- [Merging nested JSON objects](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/merging-nested-json-objects.md)
+- [Parsing JSONs from String](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/parsing-jsons-from-string.md)
+- [Response Headers & Status Codes](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/response-headers-and-status-codes.md): How can I access response headers and status codes from Connectors, APIs and REST Helper
+- [Custom Data Fields](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/custom-data-fields.md): How to use custom data fields you generated in your Apps and APIs?
+- [Wildcard API calls and actions](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/wildcard-api-calls-and-actions.md)
+- [Response cleaning](https://docs.locoia.com/automation/flow-builder/connectors-and-apis/response-cleaning.md): Function characters are automatically removed to ensure valid JSON responses
+- [Text Strings, Date & Time, Numbers and Currencies](https://docs.locoia.com/automation/flow-builder/smart-data-wrangling.md)
+- [Text and Strings](https://docs.locoia.com/automation/flow-builder/smart-data-wrangling/text-and-string-manipulation.md): Text manipulation and adjustments - How to work with text?
+- [Dates & Time](https://docs.locoia.com/automation/flow-builder/smart-data-wrangling/dates-time-and-datetime.md): Smart Data modification - Date, Time and Datetime and how to tweak it your way
+- [Numbers (Thousand Separators, Currencies)](https://docs.locoia.com/automation/flow-builder/smart-data-wrangling/number-formatting-thousand-separators-currencies.md): Juggling different number formats can be intimidating - but thanks to the power of Jinja, nothing is impossible:
+- [Email-formatting](https://docs.locoia.com/automation/flow-builder/email-formatting.md): This is how you best format email addresses
+- [Code Fields](https://docs.locoia.com/automation/flow-builder/code-fields-search-and-replace.md): Searching and replacing in code fields
+- [Running single Flow steps](https://docs.locoia.com/automation/flow-builder/running-single-flow-steps.md): Run individual Flow steps for testing & debugging.
+- [Flow run data retention, logging, and error notifications](https://docs.locoia.com/automation/flow-builder/flow-run-data-retention-and-logging.md): Flow data retention time (days) for data security and frugality
+- [Advanced View](https://docs.locoia.com/automation/flow-builder/advanced-view.md): When is the advanced view helpful for me?
+- [Dynamic Title](https://docs.locoia.com/automation/flow-builder/dynamic-title.md): Adding dynamic data to step titles
+- [Custom Error Handling](https://docs.locoia.com/automation/flow-builder/custom-error-handling.md): Custom error handling within a Flow for each step (or node a.k.a. Connector or Helper)  of a Flow
+- [Error Handling Flows](https://docs.locoia.com/automation/flow-builder/error-handling-flows.md): A custom Flow to handle all errors or log errors and send error logs to a destination of your choosing, e.g. DataDog, Slack, etc.
+- [Automatic Pagination](https://docs.locoia.com/automation/flow-builder/automatic-pagination.md): Making complex pagination as easy as a click of a button
+- [Flow Debugger](https://docs.locoia.com/automation/flow-debugger.md): The Flow Debugger provides details over all previous and current Flow Runs and their logs.
+- [Automatic Retrying](https://docs.locoia.com/automation/flow-debugger/automatic-retrying.md): Automatic retrying of failed flows due to third party timeouts, downtimes, or rate limits
+- [Run Flows again](https://docs.locoia.com/automation/flow-debugger/run-flows-again.md): With "Run again" you can re-run a flow with the same webhook input as the original Flow Run
+- [Troubleshooting Flows](https://docs.locoia.com/automation/flow-debugger/troubleshooting-flows.md): Depending on the type of error and Flow there are different ways to effectively troubleshoot Flows
+- [Community Library](https://docs.locoia.com/automation/community-library.md): How can I find and reuse pre-templated Flows from the Community Library?
+- [Connectors](https://docs.locoia.com/connectors/connectors.md)
+- [Monday.com](https://docs.locoia.com/connectors/connectors/monday.com.md)
+- [ActiveCampaign](https://docs.locoia.com/connectors/connectors/activecampaign.md)
+- [Aircall](https://docs.locoia.com/connectors/connectors/aircall.md)
+- [Allthings](https://docs.locoia.com/connectors/connectors/allthings.md)
+- [Amplitude](https://docs.locoia.com/connectors/connectors/amplitude.md)
+- [Animus](https://docs.locoia.com/connectors/connectors/animus.md)
+- [Assetti](https://docs.locoia.com/connectors/connectors/assetti.md)
+- [Awork](https://docs.locoia.com/connectors/connectors/awork.md)
+- [AWS RDS Database - How to connect](https://docs.locoia.com/connectors/connectors/aws-rds-database-how-to-connect.md)
+- [bubble.io](https://docs.locoia.com/connectors/connectors/bubble.io.md)
+- [Casavi](https://docs.locoia.com/connectors/connectors/casavi.md)
+- [Chargebee](https://docs.locoia.com/connectors/connectors/chargebee.md)
+- [CleverReach](https://docs.locoia.com/connectors/connectors/cleverreach.md)
+- [comgy](https://docs.locoia.com/connectors/connectors/comgy.md): comgy digitizes the measurement, visualization and billing of heat, water and electricity consumption in real estate.
+- [commercetools](https://docs.locoia.com/connectors/connectors/commercetools.md)
+- [Everreal](https://docs.locoia.com/connectors/connectors/everreal.md)
+- [Exact Online](https://docs.locoia.com/connectors/connectors/exact-online.md): Cloud business software for SMEs and their accountants
+- [Facebook Marketing](https://docs.locoia.com/connectors/connectors/facebook.md): Facebook custom audiences
+- [Fahrländer Partner](https://docs.locoia.com/connectors/connectors/fahrlaender-partner.md): FPRE provides market data, valuation models and benchmarks via standardized interfaces (API) and thus enables seemless integration into digital processes.
+- [FastBill](https://docs.locoia.com/connectors/connectors/fastbill.md)
+- [FILESTAGE.io](https://docs.locoia.com/connectors/connectors/filestage.io.md)
+- [Freshdesk](https://docs.locoia.com/connectors/connectors/freshdesk.md)
+- [Freshsales](https://docs.locoia.com/connectors/connectors/freshsales.md)
+- [Google Ads](https://docs.locoia.com/connectors/connectors/google-ads.md): Google Ads (formerly Google AdWords) is an online advertising platform by Google.
+- [Google Ads Lead Form](https://docs.locoia.com/connectors/connectors/google-ads-lead-form.md): Google Ads Lead Form extension to collect leads right in the search engine results.
+- [Google Analytics](https://docs.locoia.com/connectors/connectors/google-analytics.md): Google Analytics is the measuring tool for advertising ROI and user behaviour.
+- [Google Chat](https://docs.locoia.com/connectors/connectors/google-chat.md): Google Chat is a work-focused communication tool
+- [Google Drive](https://docs.locoia.com/connectors/connectors/google-drive.md)
+- [Google Sheets](https://docs.locoia.com/connectors/connectors/google-sheets.md): Use Google Sheets to create and edit online spreadsheets.
+- [Gmail](https://docs.locoia.com/connectors/connectors/gmail.md)
+- [HubSpot](https://docs.locoia.com/connectors/connectors/hubspot.md): Details on usability and limitations of the Hubspot Connector in Locoia.
+- [Heyflow](https://docs.locoia.com/connectors/connectors/heyflow.md): Heyflow helps you create, design and integrate interactive flows.
+- [iDWELL](https://docs.locoia.com/connectors/connectors/idwell.md)
+- [ImmobilienScout24](https://docs.locoia.com/connectors/connectors/immobilienscout24.md)
+- [Instagram Ads](https://docs.locoia.com/connectors/connectors/instagram-ads.md)
+- [Intercom](https://docs.locoia.com/connectors/connectors/intercom.md)
+- [klaviyo](https://docs.locoia.com/connectors/connectors/klaviyo.md)
+- [Kiwi Opening Doors](https://docs.locoia.com/connectors/connectors/kiwi-opening-doors.md)
+- [Klenty](https://docs.locoia.com/connectors/connectors/klenty.md): Sales Engagement Software to send personalized emails & automated follow-ups at scale
+- [Klipfolio](https://docs.locoia.com/connectors/connectors/klipfolio.md): Automate the monitoring, exploration and sharing of your metrics and KPIs using Klipfolio's real-time dashboard and analytics platform.
+- [Kolibri CRM](https://docs.locoia.com/connectors/connectors/kolibri-crm.md): https://kolibri.software
+- [konfipay](https://docs.locoia.com/connectors/connectors/konfipay.md)
+- [KUGU](https://docs.locoia.com/connectors/connectors/kugu.md)
+- [Shopify](https://docs.locoia.com/connectors/connectors/shopify.md)
+- [S3 AWS](https://docs.locoia.com/connectors/connectors/s3-aws.md)
+- [SQS AWS](https://docs.locoia.com/connectors/connectors/sqs-aws.md)
+- [Lambda AWS](https://docs.locoia.com/connectors/connectors/lambda-aws.md)
+- [Learnster](https://docs.locoia.com/connectors/connectors/learnster.md)
+- [lexoffice](https://docs.locoia.com/connectors/connectors/lexoffice.md)
+- [LineMetrics](https://docs.locoia.com/connectors/connectors/linemetrics.md)
+- [Linkedin](https://docs.locoia.com/connectors/connectors/linkedin.md)
+- [Locoia](https://docs.locoia.com/connectors/connectors/locoia.md): Locoia Connector
+- [Notion](https://docs.locoia.com/connectors/connectors/notion.md): Information about our Notion Connector
+- [MailGun](https://docs.locoia.com/connectors/connectors/mailgun.md)
+- [Makula](https://docs.locoia.com/connectors/connectors/makula.md): makula.io
+- [Microsoft Dynamics 365](https://docs.locoia.com/connectors/connectors/microsoft-dynamics-365.md): Microsoft Dynamics 365 Business Central
+- [Microsoft OneDrive](https://docs.locoia.com/connectors/connectors/microsoft-onedrive.md): Microsoft OneDrive and SharePoint
+- [MixPanel](https://docs.locoia.com/connectors/connectors/mixpanel.md)
+- [MongoDB](https://docs.locoia.com/connectors/connectors/mongodb.md): MongoDB is a flexible, document-based, distributed modern database.
+- [Odoo](https://docs.locoia.com/connectors/connectors/odoo.md): Odoo jsonrpc API connections.
+- [OnFleet](https://docs.locoia.com/connectors/connectors/onfleet.md)
+- [OnOffice](https://docs.locoia.com/connectors/connectors/onoffice.md)
+- [Oracle NetSuite](https://docs.locoia.com/connectors/connectors/netsuite.md): NetSuite is a cloud business software suite, including accounting, ERP, CRM and e-commerce products.
+- [Outbrain](https://docs.locoia.com/connectors/connectors/outbrain.md)
+- [Quickbooks](https://docs.locoia.com/connectors/connectors/quickbooks.md)
+- [Trello](https://docs.locoia.com/connectors/connectors/trello.md)
+- [PandaDoc](https://docs.locoia.com/connectors/connectors/pandadoc.md)
+- [Personio](https://docs.locoia.com/connectors/connectors/personio.md)
+- [Pinterest Ads](https://docs.locoia.com/connectors/connectors/pinterest-ads.md)
+- [Pipedrive](https://docs.locoia.com/connectors/connectors/pipedrive.md)
+- [Plentific](https://docs.locoia.com/connectors/connectors/plentific.md)
+- [PriceHubble](https://docs.locoia.com/connectors/connectors/pricehubble.md): Real estate appraisal, advice and analysis solutions for real estate professionals.
+- [relay](https://docs.locoia.com/connectors/connectors/relay.md): Relay is connected to casavi, the platform for efficient and customer-oriented property management.
+- [REALCUBE](https://docs.locoia.com/connectors/connectors/realcube.md)
+- [Sage ERP](https://docs.locoia.com/connectors/connectors/sage-erp.md)
+- [Salesforce](https://docs.locoia.com/connectors/connectors/salesforce.md)
+- [SAP](https://docs.locoia.com/connectors/connectors/sap.md)
+- [Scoro](https://docs.locoia.com/connectors/connectors/scoro.md)
+- [Seafile](https://docs.locoia.com/connectors/connectors/seafile.md)
+- [sevDesk](https://docs.locoia.com/connectors/connectors/sevdesk.md)
+- [SharePoint](https://docs.locoia.com/connectors/connectors/sharepoint.md)
+- [SharpSpring](https://docs.locoia.com/connectors/connectors/sharpspring.md)
+- [Slack](https://docs.locoia.com/connectors/connectors/slack.md)
+- [Snapchat Marketing](https://docs.locoia.com/connectors/connectors/snapchat-marketing.md)
+- [Snowflake](https://docs.locoia.com/connectors/connectors/snowflake.md)
+- [Teamleader Focus](https://docs.locoia.com/connectors/connectors/teamleader-focus.md)
+- [Teamwork.com](https://docs.locoia.com/connectors/connectors/teamwork.com.md)
+- [Tableau](https://docs.locoia.com/connectors/connectors/tableau.md)
+- [TikTok](https://docs.locoia.com/connectors/connectors/tiktok.md): TikTok video portal connector and API integration.
+- [TinQwise](https://docs.locoia.com/connectors/connectors/tinqwise.md)
+- [The Trade Desk](https://docs.locoia.com/connectors/connectors/the-trade-desk.md)
+- [Twitter](https://docs.locoia.com/connectors/connectors/twitter.md): Twitter API
+- [Typeform](https://docs.locoia.com/connectors/connectors/untitled-1.md): Typeform provides an easy way to create forms and surveys.
+- [WordPress](https://docs.locoia.com/connectors/connectors/wordpress.md)
+- [Xero](https://docs.locoia.com/connectors/connectors/xero.md)
+- [Youtube](https://docs.locoia.com/connectors/connectors/youtube.md)
+- [Zendesk](https://docs.locoia.com/connectors/connectors/zoom.md): Zendesk sells a cloud-based customer support platform that includes helpdesk ticketing.
+- [Zoho CRM](https://docs.locoia.com/connectors/connectors/zoho-crm.md)
+- [Zoom](https://docs.locoia.com/connectors/connectors/zoom-1.md)
+- [Helpers](https://docs.locoia.com/connectors/helpers.md)
+- [Scheduler](https://docs.locoia.com/connectors/helpers/scheduler-helper.md): Triggering flows
+- [Webhook](https://docs.locoia.com/connectors/helpers/webhook-helper.md): Triggering flows with webhooks
+- [Dict Helper](https://docs.locoia.com/connectors/helpers/dict-helper.md): Replace, add or filter for dictionaries or lists a.k.a. JSON objects
+- [Spreadsheet Helper](https://docs.locoia.com/connectors/helpers/spreadsheet-helper.md): Used for spreadsheet and SQL like operations, like grouping or joining data.
+- [REST Helper](https://docs.locoia.com/connectors/helpers/rest-helper.md): Make API requests
+- [Boolean Helper](https://docs.locoia.com/connectors/helpers/boolean-helper.md): Making decisions based on comparing data
+- [Multi Case Helper](https://docs.locoia.com/connectors/helpers/multi-case-helper.md): Route the Flow path based on the value of a variable
+- [Looper](https://docs.locoia.com/connectors/helpers/loop-helper.md): Looping over lists, dicts and arrays
+- [FTP Helper](https://docs.locoia.com/connectors/helpers/ftp-client.md): FTP client that enables file manipulation on an FTP server
+- [CSV Helper](https://docs.locoia.com/connectors/helpers/csv-helper.md): Read, manipulate and write CSV files from urls or ingested via email
+- [XLSX Helper](https://docs.locoia.com/connectors/helpers/xlsx-helper.md): Retrieving data and writing data into XLS and XLSX
+- [Mail Sender](https://docs.locoia.com/connectors/helpers/mail-helper.md): Sending emails including attachments
+- [Flow Trigger](https://docs.locoia.com/connectors/helpers/multi-flow-trigger.md): Executing another flow to split up logic in smaller chunks
+- [File Storage Helper](https://docs.locoia.com/connectors/helpers/file-storage-helper.md): Store and save files you later want to access publicly
+- [Terminate Helper](https://docs.locoia.com/connectors/helpers/terminate-helper.md): Stop a flow after a Boolean Helper or Loop Helper
+- [Delay Helper](https://docs.locoia.com/connectors/helpers/delay-helper.md): Pause flow execution for some time
+- [SQL Connector](https://docs.locoia.com/connectors/helpers/sql-helper.md): Connect to SQL databases, retrieve data, and execute SQL statements
+- [PDF Helper](https://docs.locoia.com/connectors/helpers/pdf-creator-helper.md): Create PDFs from HTML with CSS
+- [Zip Helper](https://docs.locoia.com/connectors/helpers/zip-helper.md): Zip and unzip files and encrypt them with a password
+- [Data Warehouse Helper](https://docs.locoia.com/connectors/helpers/data-warehouse-helper.md): Upsert to and read data from Data Sources
+- [XML Helper](https://docs.locoia.com/connectors/helpers/xml-helper.md)
+- [Form Helper](https://docs.locoia.com/connectors/helpers/form-helper.md): Include forms to gather user input on Embed (white label integration portal) for use in Flows
+- [Arrow](https://docs.locoia.com/connectors/helpers/arrow.md): Connecting connectors or helpers
+- [Error Arrow](https://docs.locoia.com/connectors/helpers/error-arrow.md): Connecting Connectors for manual error handling
+- [Authentication Types Available](https://docs.locoia.com/connectors/authentication.md)
+- [Setting up authentication](https://docs.locoia.com/connectors/authentication/setting-up-authentication.md)
+- [OAuth1](https://docs.locoia.com/connectors/authentication/oauth1.md): Here are all details about configuring Connectors to authenticate with OAuth1
+- [OAuth2](https://docs.locoia.com/connectors/authentication/oauth2.md): Here are all details about configuring Connectors to authenticate with OAuth2
+- [Refreshable token](https://docs.locoia.com/connectors/authentication/refreshable-token.md): Here are all details about configuring Connectors to authenticate with Refreshable Tokens
+- [AWS Signature](https://docs.locoia.com/connectors/authentication/aws-signature.md)
+- [Basic Auth and Other Simple Authentication Methods](https://docs.locoia.com/connectors/authentication/basic-auth-and-other-simple-authentication-methods.md): Basic Auth, Bearer Token, API Key, and other special cases.
+- [How are API versioning and API updates handeled?](https://docs.locoia.com/connectors/authentication/how-are-api-versioning-and-api-updates-handeled.md): New API versions and updates of APIs.
+- [Custom OAuth2 clients (apps)](https://docs.locoia.com/connectors/authentication/custom-oauth2-clients-apps.md): Use your own instead of Locoia's OAuth2 clients
+- [Building Connectors](https://docs.locoia.com/connectors/building-connectors.md): You can easily add and build connectors for Locoia.
+- [Base Connector Setup](https://docs.locoia.com/connectors/building-connectors/base-connector-setup.md): Collection of parameters for the general setup of a connector which all actions and endpoints inherit.
+- [Connector Auth Validation](https://docs.locoia.com/connectors/building-connectors/base-connector-setup/connector-auth-validation.md): The automatic Connector Auth validation feature automatically checks whether the credentials for a Connector Auth are correct or not during the creation of a it.
+- [GraphQL APIs](https://docs.locoia.com/connectors/building-connectors/base-connector-setup/graphql-apis.md): This feature shows the typical GraphQL autocomplete, which is derived from the API's schema, in GraphQL code fields.
+- [Rendering with User Input](https://docs.locoia.com/connectors/building-connectors/base-connector-setup/rendering-with-user-input.md): The base domain, header, url token extension, and config can be flexibly rendered with user input from Connector Auths.
+- [Building Connector Actions](https://docs.locoia.com/connectors/building-connectors/building-connector-actions.md): We provide our SaaS customers an easy way to manage their own connectors and its actions and endpoints.
+- [Actions Examples](https://docs.locoia.com/connectors/building-connectors/building-connector-actions/actions-examples.md): Examples of best practice created actions
+- [Search Automation](https://docs.locoia.com/connectors/building-connectors/search-automation.md): This will automatically do the entire pagination logic and will output a nice 'flat' list of records.
+- [Pagination Automation](https://docs.locoia.com/connectors/building-connectors/pagination-automation.md): This will automatically do the entire pagination logic and will output a nice 'flat' list of records.
+- [Uploading Files in Actions](https://docs.locoia.com/connectors/building-connectors/uploading-files-in-actions.md): Here is everything you need to know to configure action so that they can upload files.
+- [Working with SOAP APIs](https://docs.locoia.com/connectors/building-connectors/working-with-soap-apis.md): This section explains how to configure Connector Actions that interact with SOAP Web Services.
+- [Super Actions](https://docs.locoia.com/connectors/super-actions.md): Super Actions are Flows built by Locoia which are contained in Actions
+- [Webhook Trigger for Connectors](https://docs.locoia.com/connectors/webhook-trigger-for-connectors.md): Enables creation of webhooks in third party system directly in Locoia.
+- [Data Mapping and Env Variables](https://docs.locoia.com/connectors/data-mapping-and-env-variables.md)
+- [Embed Overview](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup.md): A Seamless Journey: Implementing Locoia Embed in your application
+- [1. Embed Flow](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building.md): Embed Flows with Locoia: A Quick Start Guide
+- [1.1 Creating Embed Flows](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/creating-embed-flows.md): Embed Flows: essential features and best practices
+- [1.2 Updating Embed Flows](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/updating-embed-flows.md): Update Embed Flow: things to consider
+- [1.3 Embed Error Handling](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/error-handling.md): Embed Flow: find and handle errors
+- [1.4 Setting up Callbacks for Integration activation/deactivation](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/1.4-setting-up-callbacks-for-embed-activation-deactivation.md): Embed Flow: Callbacks set up and lifecycle automation
+- [1.5 Setting up Remote search](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/1.5-setting-up-remote-search.md): Steps to set up Remote Search for End user
+- [1.6 Setting up End User logs](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/flow-building/1.6-setting-up-end-user-logs.md): Give your end users more details about the integrations they have enabled.
+- [2. Configure Embed](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed.md): Embed Creation: a comprehensive guide
+- [2.1 Embed Integration via SSO](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/embed-integration-via-sso.md): How to setup the white label integration portal for SaaS companies with SSO
+- [2.2 Proprietary connector setup](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/proprietary-connector-setup.md): Proprietary Connectors in Embed
+- [2.3 Sharing level](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/sharing-level.md): Embed sharing levels: User vs. Account perspectives
+- [2.4 Consent screen](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/consent-screen.md): Getting GDPR / DSGVO compliant consent from your users to use integrations.
+- [2.5 Account Secrets](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/2.5-account-secrets.md): Embed secrets for on-premise installations
+- [2.7 Further settings](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/2.-configure-embed/further-settings.md): Setting the language and specifying a redirect URL in the query parameters
+- [3. Integrate Embed](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/3.-integrate-embed.md): Integrating Embed with your application: code modification essentials
+- [3.1 iframe vs native embed](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/3.-integrate-embed/iframe-vs-native.md): Choosing the right path: two ways of Embed integration
+- [3.2 Customizing CSS](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/3.-integrate-embed/customizing-css.md): Using custom styles in iframe
+- [3.3 Events emitted from iframe to parent window](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/3.-integrate-embed/3.3-events-emitted-from-iframe-to-parent-window.md): Empowering Control: managing Embed behavior with event emission
+- [4. Embed for End User](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/4.-embed-for-end-user.md): User journey: Embed activation process
+- [4.1 Embed Remote Search](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/4.-embed-for-end-user/4.1-embed-remote-search.md): Remote Search for seamless navigation
+- [4.2 Embed End User Logs](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/4.-embed-for-end-user/4.2-embed-end-user-logs.md): Additional details about enabled Integrations
+- [5. Test Embed Configuration](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/5.-testing.md): Pre-Deployment testing options
+- [Testing example](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/5.-testing/testing-example.md): How to test Embed configuration with a local file
+- [6. Embed Integrations and Connector Auths](https://docs.locoia.com/embed-white-label-portal/embed-admin-setup/6.-embed-integrations-and-connector-auths.md): Overview of the created Integrations, manual execution and disabling. Overview of the login data (Connector Auths) provided for the Embed Integrations
+- [Embed FAQs](https://docs.locoia.com/embed-white-label-portal/faqs.md): Frequently asked questions about Embed
+- [Dashboards & Insights](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights.md)
+- [Introduction to Dashboards](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/introduction-to-dashboards.md)
+- [Introduction to Insights](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/introduction-to-insights.md)
+- [Introduction to Data Sources](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/introduction-to-data-sources.md)
+- [Dashboard Filters](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/dashboard-filters.md)
+- [Insight Marketplace - Using Pre-Built Insights](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/insight-marketplace-using-pre-built-insights.md)
+- [Writing SQL Queries](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/writing-sql-queries.md)
+- [Useful SQL Examples](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/useful-sql-examples.md): Some SQL Examples that might help you calculate that one value.
+- [Charts](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts.md)
+- [Line Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/line-chart.md)
+- [Bar and Horizontal Bar Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/bar-and-horizontal-bar-chart.md)
+- [Stat Card](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/stat-card.md)
+- [Pie Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/pie-chart.md)
+- [Gauge Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/gauge-chart.md)
+- [Donut Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/donut-chart.md)
+- [Stacked Bar, Horizontal Stacked Bar, and Normalized Horizontal Stacked Bar](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/stacked-bar-horizontal-stacked-bar-and-normalized-horizontal-stacked-bar.md)
+- [Multiple Line Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/multiple-line-chart.md)
+- [Pivot Table](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/pivot-table.md)
+- [Map Chart](https://docs.locoia.com/data-and-dashboards/dashboards-and-insights/charts/map-chart.md)
+- [Integration Best Practices](https://docs.locoia.com/best-practice-guides/integration-best-practices-and-considerations-before-starting.md): Important points to ensure before starting with any integration.
+- [Integration Check List](https://docs.locoia.com/best-practice-guides/integration-check-list.md): Most important considerations before starting an integration
+- [CSV Files in Excel](https://docs.locoia.com/best-practice-guides/working-with-csv-files-in-excel-umlaute-and-special-characters.md): Encoding CSV Files in Excel with UTF-8 with BOM
+- [Multi-Tenant Flows](https://docs.locoia.com/best-practice-guides/multi-tenant-flows.md): White label workflow marketplace - Building flows in a multi-tenant fashion
+- [On-Premise Integrations](https://docs.locoia.com/best-practice-guides/on-premise-integrations.md)
+- [Database Connection Setup](https://docs.locoia.com/best-practice-guides/database-connection-setup.md): Database Connection Options
+- [Data and General Security](https://docs.locoia.com/best-practice-guides/data-and-general-security.md)
+- [Using Tags](https://docs.locoia.com/best-practice-guides/using-tags.md): Keep your projects and resources organized with our handy Tags feature!
+- [FAQ](https://docs.locoia.com/best-practice-guides/faq.md)
+- [Locoia API Authentication - Personal Access Token](https://docs.locoia.com/api/authentication-with-our-api.md): Authentication with our API of Locoia itself
+- [Create Connector Authentication](https://docs.locoia.com/api/create-connector-authentication.md): Create Connector authentication in your own SaaS product for Locoia Connectors.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.locoia.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
