@@ -31,11 +31,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/locoia.png
 url: https://raw.githubusercontent.com/api-evangelist/locoia/refs/heads/main/apis.yml
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
   - Integration
   - iPaaS
   - Low-Code
-  - Workflow-Automation
+  - Workflow Automation
   - Connectors
 tags_raw:
   - Integration
@@ -43,6 +46,7 @@ tags_raw:
   - Low-Code
   - Workflow Automation
   - Connectors
+  - Workflow-Automation
 created: '2026-03-16'
 modified: '2026-04-28'
 specificationVersion: '0.23'
